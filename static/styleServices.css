@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#ourServices{
+    height: 453px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    font-family: 'Source Serif Pro', serif;
+    background-image: url("../static/servicesbackground.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+
+#ourServices ul{
+    list-style:square;
+    font-weight: bold;
+    height: 200px;
+    font-size: 25px;
+}
+
+#ourServices h2{
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+}
+
+  

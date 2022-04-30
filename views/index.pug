@@ -1,0 +1,46 @@
+//- index.pug  (from pug website)
+doctype html
+html
+  head
+    title Dance Website
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top 
+        ul 
+           div#logo
+              img(src="../static/danceLogo.png", alt="LOGO")
+           li #[a(href="/") Home] 
+           li #[a(href="/") Services] 
+           li #[a(href="/") Contact us]
+           li #[a(href="/") Timings]
+           li #[a(href="/") About us]
+    section#introSection
+      h1  Welcome to Divine Dance Academy :)
+      div "Eat Sleep Dance Repeat" 
+     
+    section#missionSection 
+       h2 Mission Section
+       div#cardSection
+         div.card
+           h3 This is a card
+             img(src="../static/d1.png", alt="logo")
+         div.card
+           h3 This is a card
+             img(src="../static/d2.jpg", alt="logo")
+         div.card
+           h3 This is a card   
+              img(src="../static/d3.png", alt="logo")
+       
+
+    section#sponsorSection 
+      h2  Our Sponsors
+          div#sponsors
+              img(src="../static/sp1.jpg", alt="sp1")
+              img(src="../static/sp2.jpg", alt="sp2")
+              img(src="../static/sp3.png", alt="sp3")
+              img(src="../static/sp4.png", alt="sp4")
+    footer#footer 
+       |footerr 
+    script
+      include ../static/index.js  

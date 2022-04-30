@@ -1,0 +1,17 @@
+extends base.pug
+
+block scripts
+   script(src='../static/index.js ')
+
+block style
+   style
+    include ../static/style.css
+    include ../static/styleTimings.css
+
+block content 
+    div#timings
+        h2 Mornings 
+        p 9 AM to 12 PM      
+        h2 Evenings
+        p 7 PM to 10 PM 
+        div All Week days

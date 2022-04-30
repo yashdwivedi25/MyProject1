@@ -1,0 +1,19 @@
+//- layout.pug
+doctype html
+html
+  head
+    title Dance Website
+    block scripts
+    block style 
+  body
+     nav#navbar.top 
+        ul 
+           div#logo
+           li #[a(href="/") Home] 
+           li #[a(href="/services") Services] 
+           li #[a(href="/contact") Contact us]
+           li #[a(href="/timings") Timings]
+           li #[a(href="/about") About us]
+     block content
+     footer#footer 
+       |All Rights Reserved      
